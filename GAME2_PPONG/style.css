@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(159, 156, 156);
+}
+
+
+#gameContainer {
+    text-align: center;
+}
+
+
+#gameBoard {
+    border-top: 12px solid black;
+    border-bottom: 12px solid black;
+    border-radius: 5px;
+}
+
+
+.paddle1 {
+    box-shadow: 6px 6px 10px rgba(2, 173, 25, 0.5),
+            -6px -6px 10px rgba(2, 173, 25, 0.5),
+            -6px 6px 10px rgba(2, 173, 25, 0.5),
+            6px -6px 10px rgba(2, 173, 25, 0.5);
+}
+
+
+.bordertopleft {
+    border: 3px solid green;
+    height: 8px;
+    width: 290px;
+    border-radius: 8px;
+    position: absolute;
+    top: 8px;
+    left: 444px;
+    background-color: white;
+    box-shadow: 6px 6px 10px rgba(2, 173, 25, 0.5),
+            -6px -6px 10px rgba(2, 173, 25, 0.5),
+            -6px 6px 10px rgba(2, 173, 25, 0.5),
+            6px -6px 10px rgba(2, 173, 25, 0.5);
+}
+
+
+.bordertopright {
+    border: 3px solid deeppink;
+    height: 8px;
+    width: 290px;
+    border-radius: 8px;
+    position: absolute;
+    top: 8px;
+    left: 749px;
+    background-color: white;
+    box-shadow: 6px 6px 10px rgba(241, 7, 124, 0.5),
+            -6px -6px 10px rgba(241, 7, 124, 0.5),
+            -6px 6px 10px rgba(241, 7, 124, 0.5),
+            6px -6px 10px rgba(241, 7, 124, 0.5);
+}
+
+
+.borderbottomleft {
+    border: 3px solid rgb(0, 28, 128);
+    height: 8px;
+    width: 290px;
+    border-radius: 8px;
+    position: absolute;
+    top: 419px;
+    left: 444px;
+    background-color: white;
+    box-shadow: 6px 6px 10px rgba(26, 33, 246, 0.5),
+            -6px -6px 10px rgba(26, 33, 246, 0.5),
+            -6px 6px 10px rgba(26, 33, 246, 0.5),
+            6px -6px 10px rgba(26, 33, 246, 0.5);
+}
+
+
+.borderbottomright {
+    border: 3px solid yellow;
+    height: 8px;
+    width: 290px;
+    border-radius: 8px;
+    position: absolute;
+    top: 419px;
+    left: 749px;
+    background-color: white;
+    box-shadow: 6px 6px 10px rgba(220, 246, 26, 0.5),
+            -6px -6px 10px rgba(220, 246, 26, 0.5),
+            -6px 6px 10px rgba(220, 246, 26, 0.5),
+            6px -6px 10px rgba(220, 246, 26, 0.5);
+}
+
+
+#scoreText {
+    font-family: 'consolas', monospace;
+    font-size: 100px;
+}
+
+
+#resetBtn {
+    border: 4px solid black;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: aqua;
+}

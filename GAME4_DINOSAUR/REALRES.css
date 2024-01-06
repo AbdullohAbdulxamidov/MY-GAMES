@@ -1,0 +1,478 @@
+.game {
+    border-bottom: 0.125rem solid #000;
+    width: 45rem;
+    height: 13rem;
+    margin: auto;
+    position: absolute;
+    top: 12rem;
+    left: 24rem;
+}
+
+
+#dino {
+    font-size: 2rem;
+    background-size: 3rem 3rem;
+    position: absolute;
+    top: 10.6rem;
+    left: 0.5rem;
+}
+
+
+#cactus {
+    font-size: 2rem;
+    background-size: 3rem 3rem;
+    position: relative;
+    top: 10.6rem;
+    left: 34rem;
+    animation: cactusAnim 1.2s infinite linear;
+}
+
+
+@keyframes cactusAnim {
+    0% {
+        left: 33.75rem;
+    }
+
+    100% {
+        left: -1.25rem;
+    }
+}
+
+
+.boz {
+    animation: boz 1s linear;
+}
+
+
+@keyframes boz {
+    0% {
+        top: 9.375rem;
+    }
+
+    30% {
+        top: 8.125rem;
+    }
+
+    50% {
+        top: 5rem;
+    }
+
+    80% {
+        top: 8.125rem;
+    }
+
+    100% {
+        top: 9.375rem
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 400px) {
+    .container {
+        min-width: 60px;
+        min-height: 60px;
+    }
+
+
+    .back {
+        border: 0.044rem solid #ffffff;
+        width: 6.37rem;
+        height: 2.48rem;
+        border-radius: 0.83rem;
+        position: absolute;
+        top: 0.88rem;
+        right: 1.33rem;
+        font-size: 1.41rem;
+        letter-spacing: 0.09rem;
+    }
+
+
+    .next {
+        border: 0.044rem solid #ffffff;
+        width: 6.37rem;
+        height: 2.48rem;
+        border-radius: 0.71rem;
+        position: absolute;
+        bottom: 0.88rem;
+        right: 1.33rem;
+        font-size: 1.41rem;
+        letter-spacing: 0.09rem;
+    }
+
+
+    .reset {
+        padding: 0.71rem 0.88rem;
+        border-radius: 0.36rem;
+    }
+
+
+    .game {
+        width: 19.05rem;
+        height: 19.05rem;
+        gap: 0.78rem;
+        transform-style: preserve-3d;
+        perspective: 22.15rem;
+    }
+
+
+    h2 {
+        font-size: 2.12em;
+        letter-spacing: 0.07em;
+    }
+
+
+    .item {
+        width: 4rem;
+        height: 4rem;
+    }
+
+
+    .emoji {
+        font-size: 2.84rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 400px) {
+    .container {
+        min-width: 113px;
+        min-height: 113px;
+    }
+
+
+    .item {
+        min-width: 1.68rem;
+        min-height: 1.68rem;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (min-width: 576px) {
+    .game {
+        border-bottom: 0.125rem solid #000;
+        width: 32rem;
+        height: 13rem;
+        position: absolute;
+        top: 5rem;
+        left: 21rem;
+    }
+
+
+    #dino {
+        font-size: 2rem;
+        background-size: 3rem 3rem;
+        position: absolute;
+        top: 10.6rem;
+        left: 0.36rem;
+    }
+
+
+    #cactus {
+        font-size: 2rem;
+        background-size: 3rem 3rem;
+        position: relative;
+        top: 10.6rem;
+        left: 26rem;
+        animation: cactusAnim 1.2s infinite linear;
+    }
+
+
+    @keyframes cactusAnim {
+        0% {
+            left: 32rem;
+        }
+
+        100% {
+            left: -1.25rem;
+        }
+    }
+
+
+    .boz {
+        animation: boz 1s linear;
+    }
+
+
+    @keyframes boz {
+        0% {
+            top: 9.375rem;
+        }
+
+        30% {
+            top: 8.125rem;
+        }
+
+        50% {
+            top: 5rem;
+        }
+
+        80% {
+            top: 8.125rem;
+        }
+
+        100% {
+            top: 9.375rem
+        }
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .game {
+        border-bottom: 0.125rem solid #000;
+        width: 32rem;
+        height: 13rem;
+        position: absolute;
+        top: 5rem;
+        left: 21rem;
+    }
+
+
+    #dino {
+        font-size: 2rem;
+        background-size: 3rem 3rem;
+        position: absolute;
+        top: 10.6rem;
+        left: 0.36rem;
+    }
+
+
+    #cactus {
+        font-size: 2rem;
+        background-size: 3rem 3rem;
+        position: relative;
+        top: 10.6rem;
+        left: 26rem;
+        animation: cactusAnim 1.2s infinite linear;
+    }
+
+
+    @keyframes cactusAnim {
+        0% {
+            left: 32rem;
+        }
+
+        100% {
+            left: -1.25rem;
+        }
+    }
+
+
+    .boz {
+        animation: boz 1s linear;
+    }
+
+
+    @keyframes boz {
+        0% {
+            top: 9.375rem;
+        }
+
+        30% {
+            top: 8.125rem;
+        }
+
+        50% {
+            top: 5rem;
+        }
+
+        80% {
+            top: 8.125rem;
+        }
+
+        100% {
+            top: 9.375rem
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+    .game {
+        border-bottom: 0.125rem solid #000;
+        width: 32rem;
+        height: 13rem;
+        position: absolute;
+        top: 5rem;
+        left: 21rem;
+    }
+
+
+    #dino {
+        font-size: 2rem;
+        background-size: 3rem 3rem;
+        position: absolute;
+        top: 10.6rem;
+        left: 0.36rem;
+    }
+
+
+    #cactus {
+        font-size: 2rem;
+        background-size: 3rem 3rem;
+        position: relative;
+        top: 10.6rem;
+        left: 26rem;
+        animation: cactusAnim 1.2s infinite linear;
+    }
+
+
+    @keyframes cactusAnim {
+        0% {
+            left: 32rem;
+        }
+
+        100% {
+            left: -1.25rem;
+        }
+    }
+
+
+    .boz {
+        animation: boz 1s linear;
+    }
+
+
+    @keyframes boz {
+        0% {
+            top: 9.375rem;
+        }
+
+        30% {
+            top: 8.125rem;
+        }
+
+        50% {
+            top: 5rem;
+        }
+
+        80% {
+            top: 8.125rem;
+        }
+
+        100% {
+            top: 9.375rem
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1400px) {
+    .game {
+        border-bottom: 0.125rem solid #000;
+        width: 45rem;
+        height: 13rem;
+        margin: auto;
+        position: absolute;
+        top: 12rem;
+        left: 24rem;
+    }
+
+
+    #dino {
+        font-size: 2rem;
+        background-size: 3rem 3rem;
+        position: absolute;
+        top: 10.6rem;
+        left: 0.5rem;
+    }
+
+
+    #cactus {
+        font-size: 2rem;
+        background-size: 3rem 3rem;
+        position: relative;
+        top: 10.6rem;
+        left: 34rem;
+        animation: cactusAnim 1.2s infinite linear;
+    }
+
+
+    @keyframes cactusAnim {
+        0% {
+            left: 33.75rem;
+        }
+
+        100% {
+            left: -1.25rem;
+        }
+    }
+
+
+    .boz {
+        animation: boz 1s linear;
+    }
+
+
+    @keyframes boz {
+        0% {
+            top: 9.375rem;
+        }
+
+        30% {
+            top: 8.125rem;
+        }
+
+        50% {
+            top: 5rem;
+        }
+
+        80% {
+            top: 8.125rem;
+        }
+
+        100% {
+            top: 9.375rem
+        }
+    }
+}

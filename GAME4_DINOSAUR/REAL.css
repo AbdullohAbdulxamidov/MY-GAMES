@@ -1,0 +1,59 @@
+.game {
+    width: 600px;
+    height: 200px;
+    border-bottom: 1px solid #000;
+    margin: auto;
+}
+
+
+#dino {
+    font-size: 30px;
+    background-size: 50px 50px;
+    position: relative;
+    top: 165px;
+    left: 8px;
+}
+
+
+#cactus {
+    font-size: 30px;
+    background-size: 50px 50px;
+    position: relative;
+    top: 125px;
+    left: 540px;
+    animation: cactusAnim 1.2s infinite linear;
+}
+
+
+@keyframes cactusAnim {
+    0% {
+        left: 540px;
+    }
+    100% {
+        left: -20px;
+    }
+}
+
+
+.boz {
+    animation: boz 1s linear;
+}
+
+
+@keyframes boz {
+    0% {
+        top: 150px;
+    }
+    30% {
+        top: 130px;
+    }
+    50% {
+        top: 80px;
+    }
+    80% {
+        top: 130px;
+    }
+    100% {
+        top: 150px;
+    }
+}

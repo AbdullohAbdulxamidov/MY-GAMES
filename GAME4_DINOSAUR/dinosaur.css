@@ -1,0 +1,188 @@
+/* BODY SECTION BOSHI */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/* BODY SECTION YAKUNI */
+
+
+
+
+
+
+/* CHIZIQ SECTION BOSHI */
+#dinosaur {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: calc(50% - 21px);
+    left: 30%;
+    border-radius: 50%;
+    background: yellow;
+}
+
+
+#line {
+    border: 1px solid #444;
+    width: 10000px;
+    height: 5px;
+    background: #444;
+    animation: animLine 10s linear infinite;
+}
+
+
+@keyframes animLine {
+    0% {
+        transform: translateX(1000%)  translateY(0%);
+    }
+    100% {
+        transform: translateX(0%)  translateY(0%);
+    }
+}
+/* CHIZIQ SECTION YAKUNI */
+
+
+
+
+
+
+
+
+
+/* BARRIER SECTION BOSHI */
+#barrier1 {
+    border: 1px solid #444;
+    width: 12px;
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: absolute;
+    top: calc(50% - 30px);
+    left: -100%;
+    background: #444;
+}
+
+#barrier2 {
+    border: 1px solid #444;
+    width: 18px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: -80%;
+    background: #444;
+}
+
+#barrier3 {
+    border: 1px solid #444;
+    width: 8px;
+    height: 25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: -60%;
+    background: #444;
+}
+
+#barrier4 {
+    border: 1px solid #444;
+    width: 12px;
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: absolute;
+    top: calc(50% - 30px);
+    left: -40%;
+    background: #444;
+}
+
+#barrier5 {
+    border: 1px solid #444;
+    width: 12px;
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: absolute;
+    top: calc(50% - 30px);
+    left: -20%;
+    background: #444;
+}
+
+#barrier6 {
+    border: 1px solid #444;
+    width: 12px;
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: absolute;
+    top: calc(50% - 30px);
+    left: 0%;
+    background: #444;
+}
+
+#barrier7 {
+    border: 1px solid #444;
+    width: 12px;
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: absolute;
+    top: calc(50% - 30px);
+    left: 20%;
+    background: #444;
+}
+/* BARRIER SECTION YAKUNI */
+
+
+
+
+
+
+
+
+
+/* BUTTON SECTION BOSHI */
+#button {
+    font-weight: 700;
+    font-size: 35px;
+    color: dodgerblue;
+    text-align: center;
+    letter-spacing: 3px;
+    cursor: pointer;
+
+    border: 5px solid dodgerblue;
+    background: rgb(0, 255, 255);
+    width: 140px;
+    height: 50px;
+    border-radius: 15%;
+    position: absolute;
+    top: 70%;
+    left: calc(45% - 5px);
+}
+
+
+/* body:active #dinosaur {
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(30% + 60px);
+} */
+
+
+body:active #dinosaur {
+    position: absolute;
+    top: calc(50% - 100px);
+}
+/* BUTTON SECTION YAKUNI */

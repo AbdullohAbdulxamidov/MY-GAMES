@@ -1,0 +1,160 @@
+/* BODY  SECTION  BOSHI */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #0085ff, #ff1458);
+}
+/* BODY  SECTION  YAKUNI */
+
+
+
+
+
+
+
+
+
+/* BOARD  SECTION  BOSHI */
+.board {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 50px;
+}
+
+
+.board .dropBox {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    border-right: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.board .dropBox div {
+    pointer-events: none;
+    scale: 1.5;
+}
+
+
+.board .dropBox:nth-child(3),
+.board .dropBox:nth-child(6),
+.board .dropBox:nth-child(9) {
+    border-right: none;
+}
+
+
+.board .dropBox:nth-child(7),
+.board .dropBox:nth-child(8),
+.board .dropBox:nth-child(9) {
+    border-bottom: none;
+}
+/* BOARD  SECTION  YAKUNI */
+
+
+
+
+
+
+
+
+
+/* X  TOMON  SECTION  BOSHI */
+.drag {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+    height: 420px;
+    gap: 10px;
+    margin: 0 40px;
+    cursor: grab;
+}
+
+
+.drag .dragBox {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
+.cross {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cross::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background: #fff;
+    transform: rotate(45deg);
+}
+
+
+.cross::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: #fff;
+    transform: rotate(45deg);
+}
+/* X  TOMON  SECTION  YAKUNI */
+
+
+
+
+
+
+
+
+
+/* Y  TOMON  SECTION  BOSHI */
+.circle {
+    border: 5px solid #fff;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.reset {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 25px;
+    border: none;
+    outline: 0;
+    background: #161616;
+    color: #ffffff;
+    font-size: 1.25em;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+/* Y  TOMON  SECTION  YAKUNI */

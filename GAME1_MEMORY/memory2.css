@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ffff00;
+}
+
+
+.back {
+    border: 1px solid #ffffff;
+    width: 110px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: yellow;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: cursive;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+.next {
+    border: 1px solid #ffffff;
+    width: 110px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    position: relative;
+    top: 300px;
+    right: -930px;
+    color: yellow;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: cursive;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background: #c8cb14;
+    padding: 40px 60px;
+}
+
+
+h2 {
+    font-size: 3em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+
+.reset {
+    padding: 15px 20px;
+    color: yellow;
+    background: #fff;
+    border: none;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.reset:focus {
+    color: #fff;
+    background: yellow;
+}
+
+
+.back:focus {
+    color: #fff;
+    background: yellow;
+}
+
+
+.next:focus {
+    color: #fff;
+    background: yellow;
+}
+
+
+.game {
+    width: 430px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+}
+
+
+.item {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    background: #fff;
+    transform: rotateY(180deg);
+    transition: 0.25s;
+}
+
+
+.item .boxOpen {
+    transform: rotateY(0deg);
+}
+
+
+.item::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: yellow;
+    transition: 0.25s;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+}
+
+
+.boxOpen:after, .boxMatch:after {
+    transform: rotateY(180deg);
+}
